@@ -16,14 +16,14 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 
-### Lang Jiaqi🍀
+### Lang Jiaqi
 
 <img src="images/lang.png" width="200px">
 
 [[github](https://github.com/lang-jiaqi?tab=repositories)]
 
 * Role: Developer
-* Resiponsibility: Storage 
+* Resiponsibility: Storage
 
 ### Chen Hongshan
 
