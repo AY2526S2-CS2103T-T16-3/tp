@@ -352,11 +352,32 @@ MVP - `* * * *`, High (must have) - `* * *`, Medium (nice to have) - `* *`, Low 
 
 *{More to be added}*
 
-### Non-Functional Requirements
+## Non-Functional Requirements
 
 1. Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
 2. Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 3. A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+### Compatibility
+- Should work on any mainstream OS (Windows, macOS, Linux) as long as Java `17` or above is installed.
+
+### Performance
+- Should be able to hold up to 1000 cat records without noticeable sluggishness in performance for typical usage.
+- Response time for adding, deleting, or editing a record should be under 1 second.
+- Search results should be displayed within 0.5 seconds of input.
+
+### Usability
+- A user with above average typing speed for regular English text should be able to accomplish most tasks faster using commands than using the mouse.
+- A new user should be able to complete their first cat record entry within 5 minutes.
+
+### Reliability
+- Data should be automatically saved after each operation without requiring manual saving.
+- Data should be fully recoverable after an unexpected application crash.
+
+### Maintainability
+- Adding new fields should not require significant code refactoring.
+
+### Portability
+- Should support exporting data in CSV or JSON format for backup or migration purposes.
 
 *{More to be added}*
 
@@ -366,6 +387,22 @@ MVP - `* * * *`, High (must have) - `* * *`, Medium (nice to have) - `* *`, Low 
 * **Private contact detail**: A contact detail that is not meant to be shared with others
 
 ---
+* **JavaFX**: A Java library used to build the graphical user interface (GUI) of this application
+* **FXML**: An XML-based file format used by JavaFX to define the layout and structure of UI components separately from application logic
+* **Component**: A self-contained, replaceable part of the application (e.g., UI, Logic, Model, Storage), each responsible for a distinct concern and communicating with others only through defined interfaces
+* **Coupling**: The degree of dependency between components. Low coupling is preferred, as it means changes to one component are less likely to break others
+* **Model**: The component that holds all in-memory application data (contacts, user preferences)
+* **ObservableList**: A JavaFX list that automatically notifies listeners (such as the UI) when its contents change, enabling the display to refresh without manual intervention
+* **Filtered List**: A view of the full contact list showing only entries that match current search criteria. It updates dynamically as the underlying data or filter changes\
+* **State/Address book state**: A complete snapshot of the address book's data at a given point in time. Used by the undo/redo feature to restore previous versions
+* **Commit (in undo/redo context)**: The act of saving the current address book state into history, analogous to saving a checkpoint. Not related to version control commits
+* **Sequence Diagram**: A UML diagram showing how objects interact with each other in a specific time-ordered sequence of method calls
+* **Activity diagram**: A UML diagram showing the flow of control through a process, including decision points and parallel actions
+* **Class diagram**: A UML diagram showing the structure of classes, their attributes, methods, and relationships (e.g., inheritance, association)
+* **MSS**: Main Success Scenario.  Scenario)The primary, happy-path flow of a use case, describing what happens when everything goes as expected with no errors or exceptions
+* **PlantUML**: A that generates UML diagrams from plain text descriptions. The .puml files in this project define all architectural diagrams
+* **Lifeline (in sequence diagrams)**: The vertical dashed line in a sequence diagram representing an object's existence over time. It ends with a destroy marker (X) when the object is no longer needed
+--------------------------------------------------------------------------------------------------------------------
 
 ## **Appendix: Instructions for manual testing**
 

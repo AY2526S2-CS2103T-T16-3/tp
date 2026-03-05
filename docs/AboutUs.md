@@ -2,7 +2,6 @@
 layout: page
 title: About Us
 ---
-
 We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
 
 You can reach us at the email `seer[at]comp.nus.edu.sg`
@@ -16,33 +15,37 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/Haofeng125)]
 
 * Role: Developer
+* Responsibility: UI
 
 ### Lang Jiaqi
 
-<img src="images/lang.jpg" width="200px">
+<img src="images/lang.png" width="200px">
 
 [[github](https://github.com/lang-jiaqi?tab=repositories)]
 
 * Role: Developer
+* Resiponsibility: Storage
 
-### Johnny Doe
+### Chen Hongshan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/Hongshan.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/ChenHongshan333)]
+
+[[portfolio](https://chenhongshan333.github.io/)]
 
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Doe
+### Liu Lexi
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/lexi.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[homepage](https://lexi-archive.vercel.app/)]
+[[github](http://github.com/LexiAKAtiff)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibilities: Data, Ui
 
 ### Chirla Sai
 
@@ -51,4 +54,4 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/chirlasai)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Deliverables and Deadlines Manager
