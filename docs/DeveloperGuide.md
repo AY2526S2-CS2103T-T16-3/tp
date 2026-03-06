@@ -318,10 +318,6 @@ MVP - `* * * *`, High (must have) - `* * *`, Medium (nice to have) - `* *`, Low 
 
 # use short-hand flags (e.g., -n for name, -t for territory)
 
-# use short-hand flags (e.g., -n for name, -t for territory)
-
-# use short-hand flags (e.g., -n for name, -t for territory)
-
 *{More to be added}*
 
 ### Use cases
