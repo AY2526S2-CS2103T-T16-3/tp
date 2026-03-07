@@ -9,20 +9,11 @@
 
 ## Table of Contents
 
-- [Security](#security)
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Security
-
-We propose a feature in our [user stories](https://github.com/orgs/AY2526S2-CS2103T-T16-3/projects/1)
-that only **authorized user** can have the access to CatPals. This can be achieved by using
-a pair of `UserID` and `UserKey`.
-<br>
-*[To be implemented]*
 
 ## Background
 
